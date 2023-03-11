@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;800&family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+    <nav id="navigationBar">
+        <ul>
+            <li>
+            <a href="javascript:void(0)" class="link">Home</a>
+            </li>
+            <li>
+            <a href="javascript:void(0)" class="link">Contact</a>
+            </li>
+            <li>
+            <a href="javascript:void(0)" class="link"><img src="./images/Iconsmind-Outline-Running-Shoes.ico" alt=""></a>
+            </li>
+            <li>
+            <a href="javascript:void(0)" class="link">Products</a>
+            </li>
+            <li>
+            <a href="javascript:void(0)" class="link">Cart</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+    <div class="Products">
+        <h2>Section one > Shoes</h2>
+        <div class="item one">
+                <img id="product_1" data-img src="images/product 1.jpg" alt="">
+            <div class="title">
+                <h3 class="price">15</h3>
+                <button class="addBtn">Add To Cart</button>
+            </div>
+        </div>
+        <div class="item two">
+            <img id="product_2" data-img src="images/product 2.jpg" alt="">
+            <div class="title">
+                <h3 data-price>50</h3>
+                <button class="addBtn">Add To Cart</button>
+            </div>
+
+        </div>
+        <div class="item three">
+            <img id="product_3" data-img src="images/product 3.jpg" alt="">
+            <div class="title">
+                <h3 data-price> 20</h3>
+                <button class="addBtn">Add To Cart</button>
+            </div>
+
+        </div>
+        <div class="item four">
+            <img id="product_4" data-img src="images/product 4.jpg" alt="">
+            <div class="title">
+                <h3 data-price>30</h3>
+                <button class="addBtn">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Cart</h2>
+        <div class="buy">
+            <div class="heading">
+                <h3>ITEM</h3>
+                <h3>PRICE</h3>
+                <h3>QUANTITY</h3>
+            </div>
+            <div class="add">
+                                <!-- <div class="items">
+                                    <div class="img">
+                                        <img src="images/item 1.jpg" alt="">
+                                    </div>
+                                    <div class="price">50</div>
+                                    <div class="Quantity">
+                                        <input type="number" name="number" id="num">
+                                        <span class="remove"> Remove</span>
+                                    </div>
+                                </div> -->
+            </div>
+            <div class="total">
+                <h3>TOTAL</h3>
+                <p id="total">0</p>
+            </div>
+        </div>
+        <button class="custom-btn btn-16"><span>PURCHASE</span></button>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
